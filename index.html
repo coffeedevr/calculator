@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <p class="equation" id="equationDisplay"></p>
+            <p class="displaycontainer" id="textDisplay">0</p>
+        </div>
+        <div class="controls">
+            <div class="firstrow">
+                <button type="button" class="operators" id="clearall">C</button>
+                <button type="button" class="operators" id="modulo">%</button>
+                <button type="button" class="operators" id="divide">/</button>
+                <button type="button" class="operators" id="clear">←</button>
+            </div>
+            <div class="secondrow">
+                <button type="button" class="digits" id="seven">7</button>
+                <button type="button" class="digits" id="eight">8</button>
+                <button type="button" class="digits" id="nine">9</button>
+                <button type="button" class="operators" id="multiply">x</button>
+            </div>
+            <div class="thirdrow">
+                <button type="button" class="digits" id="four">4</button>
+                <button type="button" class="digits" id="five">5</button>
+                <button type="button" class="digits" id="six">6</button>
+                <button type="button" class="operators" id="subtract">-</button>
+            </div>
+            <div class="fourthrow">
+                <button type="button" class="digits" id="one">1</button>
+                <button type="button" class="digits" id="two">2</button>
+                <button type="button" class="digits" id="three">3</button>
+                <button type="button" class="operators" id="add">+</button>
+            </div>
+            <div class="fifthrow">
+                <button type="button" class="digits" id="sign">+/-</button>
+                <button type="button" class="digits" id="zero">0</button>
+                <button type="button" class="digits" id="decimal">.</button>
+                <button type="button" class="operators" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
